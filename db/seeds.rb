@@ -1,4 +1,5 @@
-  
+puts '🌱 Seeding started...'
+
 Movie.create([
     {
       title: "The Color Purple",
@@ -144,3 +145,6 @@ Movie.create([
       female_director: true
     }
   ])
+
+  puts "🌱 Seeding finished!"
+  
